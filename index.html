@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="utf-8">
+    <title>Lab 7 - Layout and Map</title>
+    <h1>Airport Connections</h1>
+
+
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script defer src="script.js">
+
+  </head>
+
+
+
+</script>
+  <body>
+
+    <div class="nodechart"></div>
+
+
+
+    <div style="display: flex; float: left; margin-left:50px ">
+         <input style="margin: 5px;" type="radio" id="force" name="display" value="force" checked>
+             <label >Force</label>
+             <input style="margin: 5px; margin-left:25px;" type="radio" id="map" name="display" value="map">
+             <label >Map</label>
+             <div class="tooltip"></div>
+     </div>
+
+     <div class="chart-area"></div>
+
+
+
+  </body>
+
+
+</html>
